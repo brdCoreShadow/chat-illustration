@@ -3,6 +3,12 @@ import styled from "@emotion/styled";
 export const MobileCon = styled.div`
   position: relative;
 
+  z-index: 5;
+
+  margin-bottom: 64px;
+  margin-left: 64px;
+  margin-right: 64px;
+
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 10px;
