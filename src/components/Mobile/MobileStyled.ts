@@ -5,6 +5,8 @@ export const MobileCon = styled.div`
 
   z-index: 5;
 
+  width: 247px;
+
   margin-bottom: 64px;
   margin-left: 64px;
   margin-right: 64px;
@@ -19,6 +21,7 @@ export const MobileCon = styled.div`
   border-radius: 30px;
 
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+
 
   &::before {
     position: absolute;

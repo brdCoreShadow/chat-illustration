@@ -1,6 +1,7 @@
 import styled from "@emotion/styled";
 
 export const IntroCon = styled.div`
+
   margin-left: 32px;
   margin-right: 32px;
 
@@ -22,5 +23,12 @@ export const IntroCon = styled.div`
     color: #a39da9;
 
     opacity: 0.8;
+  }
+   
+  @media (min-width: 1280px){
+  width: 445px;
+
+  text-align: left;
+
   }
 `;
