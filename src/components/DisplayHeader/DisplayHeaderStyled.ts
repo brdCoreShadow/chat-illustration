@@ -8,28 +8,33 @@ export const DisplayHeaderCon = styled.div`
   align-items: center;
   justify-content: space-between;
 
+  margin-bottom: 12px;
+
   padding-top: 30px;
   padding-bottom: 12px;
   padding-left: 28px;
   padding-right: 16px;
 
   background: linear-gradient(#e844ff, #8739ff);
+
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
 `;
 
 export const AvaFlexCon = styled.div`
-position: relative;
+  position: relative;
 
   display: flex;
   flex-direction: row;
   align-items: center;
 
   &::before {
-position: absolute;
+    position: absolute;
 
-top: 50%;
-left: 0;
+    top: 50%;
+    left: 0;
 
-transform: translate(-8px, -50%);
+    transform: translate(-8px, -50%);
 
     display: inline-block;
 
@@ -39,7 +44,6 @@ transform: translate(-8px, -50%);
     content: "";
 
     background-image: url(${arrowIcon});
-
   }
 `;
 
@@ -73,7 +77,7 @@ export const AvaContentCon = styled.div`
 
     color: #d99eff;
 
-    opacity: 0.5;
+    opacity: 0.7;
   }
 `;
 

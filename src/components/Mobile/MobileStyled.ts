@@ -1,6 +1,8 @@
 import styled from "@emotion/styled";
 
 export const MobileCon = styled.div`
+  position: relative;
+
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 10px;
@@ -11,4 +13,26 @@ export const MobileCon = styled.div`
   border-radius: 30px;
 
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+
+  &::before {
+    position: absolute;
+
+    top: 0;
+    left: 50%;
+    z-index: 5;
+
+    transform: translate(-50%, 0);
+
+    display: inline-block;
+
+    width: 129px;
+    height: 29px;
+
+    content: "";
+
+    background-color: #fff;
+
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+  }
 `;
